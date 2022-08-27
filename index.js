@@ -9,10 +9,10 @@ app.listen(port,function() {
 
 const mysql = require('mysql');
 const conn = mysql.createConnection({
-    host: 'db4free',
-    user: 'vietanh_t2204m',
+    host: 'db4free.net',
+    user: 'vietanh_t2204',
     password: 'loitiroi1',
-    database: 'vietanh_t2204m',
+    database: 'vietanh_t2204',
     port: 3306
 });
 
